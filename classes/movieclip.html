@@ -1,0 +1,2828 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>MovieClip | @pixi/animate</title>
+	<meta name="description" content="Documentation for @pixi/animate">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../assets/css/main.css">
+	<script async src="../assets/js/search.js" id="search-script"></script>
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.json" data-base="..">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="../index.html" class="title">@pixi/animate</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="../modules.html">@pixi/animate</a>
+				</li>
+				<li>
+					<a href="movieclip.html">MovieClip</a>
+				</li>
+			</ul>
+			<h1>Class MovieClip</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Provide timeline playback of movieclip</p>
+					</div>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<a href="container.html" class="tsd-signature-type" data-tsd-kind="Class">Container</a>
+						<ul class="tsd-hierarchy">
+							<li>
+								<span class="target">MovieClip</span>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel-group tsd-index-group">
+				<h2>Index</h2>
+				<section class="tsd-panel tsd-index-panel">
+					<div class="tsd-index-content">
+						<section class="tsd-index-section ">
+							<h3>Constructors</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited"><a href="movieclip.html#constructor" class="tsd-kind-icon">constructor</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Properties</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="movieclip.html#_actions" class="tsd-kind-icon">_actions</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="movieclip.html#_beforeupdate" class="tsd-kind-icon">_before<wbr>Update</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="movieclip.html#_colortransformfilter" class="tsd-kind-icon">_color<wbr>Transform<wbr>Filter</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="movieclip.html#_depthsorted" class="tsd-kind-icon">_depth<wbr>Sorted</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="movieclip.html#_duration" class="tsd-kind-icon">_duration</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="movieclip.html#_framerate" class="tsd-kind-icon">_framerate</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="movieclip.html#_labeldict" class="tsd-kind-icon">_label<wbr>Dict</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="movieclip.html#_labels" class="tsd-kind-icon">_labels</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="movieclip.html#_prevpos" class="tsd-kind-icon">_prev<wbr>Pos</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="movieclip.html#_synchoffset" class="tsd-kind-icon">_synch<wbr>Offset</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="movieclip.html#_t" class="tsd-kind-icon">_t</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="movieclip.html#_timedchildtimelines" class="tsd-kind-icon">_timed<wbr>Child<wbr>Timelines</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="movieclip.html#_timelines" class="tsd-kind-icon">_timelines</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="movieclip.html#_totalframes" class="tsd-kind-icon">_total<wbr>Frames</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="movieclip.html#a" class="tsd-kind-icon">a</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="movieclip.html#aa" class="tsd-kind-icon">aa</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="movieclip.html#ac" class="tsd-kind-icon">ac</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="movieclip.html#actionsenabled" class="tsd-kind-icon">actions<wbr>Enabled</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="movieclip.html#am" class="tsd-kind-icon">am</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="movieclip.html#at" class="tsd-kind-icon">at</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="movieclip.html#autoreset" class="tsd-kind-icon">auto<wbr>Reset</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="movieclip.html#c" class="tsd-kind-icon">c</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="movieclip.html#currentframe" class="tsd-kind-icon">current<wbr>Frame</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="movieclip.html#i" class="tsd-kind-icon">i</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="movieclip.html#loop" class="tsd-kind-icon">loop</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="movieclip.html#ma" class="tsd-kind-icon">ma</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="movieclip.html#mode" class="tsd-kind-icon">mode</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="movieclip.html#parentstartposition" class="tsd-kind-icon">parent<wbr>Start<wbr>Position</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="movieclip.html#paused" class="tsd-kind-icon">paused</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="movieclip.html#ps" class="tsd-kind-icon">ps</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="movieclip.html#re" class="tsd-kind-icon">re</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="movieclip.html#selfadvance" class="tsd-kind-icon">self<wbr>Advance</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="movieclip.html#startposition" class="tsd-kind-icon">start<wbr>Position</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="movieclip.html#t" class="tsd-kind-icon">t</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="movieclip.html#tw" class="tsd-kind-icon">tw</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><a href="movieclip.html#default_framerate" class="tsd-kind-icon">DEFAULT_<wbr>FRAMERATE</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><a href="movieclip.html#independent" class="tsd-kind-icon">INDEPENDENT</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><a href="movieclip.html#single_frame" class="tsd-kind-icon">SINGLE_<wbr>FRAME</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><a href="movieclip.html#synched" class="tsd-kind-icon">SYNCHED</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Accessors</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><a href="movieclip.html#colortransformfilter" class="tsd-kind-icon">color<wbr>Transform<wbr>Filter</a></li>
+								<li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="movieclip.html#currentlabel" class="tsd-kind-icon">current<wbr>Label</a></li>
+								<li class="tsd-kind-accessor tsd-parent-kind-class"><a href="movieclip.html#elapsedtime" class="tsd-kind-icon">elapsed<wbr>Time</a></li>
+								<li class="tsd-kind-accessor tsd-parent-kind-class"><a href="movieclip.html#framerate" class="tsd-kind-icon">framerate</a></li>
+								<li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="movieclip.html#labels" class="tsd-kind-icon">labels</a></li>
+								<li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="movieclip.html#labelsmap" class="tsd-kind-icon">labels<wbr>Map</a></li>
+								<li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="movieclip.html#parentframerate" class="tsd-kind-icon">parent<wbr>Framerate</a></li>
+								<li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="movieclip.html#totalframes" class="tsd-kind-icon">total<wbr>Frames</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Methods</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="movieclip.html#_autoextend" class="tsd-kind-icon">_auto<wbr>Extend</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="movieclip.html#_getchildtimeline" class="tsd-kind-icon">_get<wbr>Child<wbr>Timeline</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="movieclip.html#_goto" class="tsd-kind-icon">_goto</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="movieclip.html#_onadded" class="tsd-kind-icon">_on<wbr>Added</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="movieclip.html#_onremoved" class="tsd-kind-icon">_on<wbr>Removed</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="movieclip.html#_parseproperties" class="tsd-kind-icon">_parse<wbr>Properties</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="movieclip.html#_reset" class="tsd-kind-icon">_reset</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="movieclip.html#_settimelineposition" class="tsd-kind-icon">_set<wbr>Timeline<wbr>Position</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="movieclip.html#_ticklistener" class="tsd-kind-icon">_tick<wbr>Listener</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="movieclip.html#_updatetimeline" class="tsd-kind-icon">_update<wbr>Timeline</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="movieclip.html#addaction" class="tsd-kind-icon">add<wbr>Action</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="movieclip.html#addkeyframe" class="tsd-kind-icon">add<wbr>Keyframe</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="movieclip.html#addtimedchild" class="tsd-kind-icon">add<wbr>Timed<wbr>Child</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="movieclip.html#addtimedmask" class="tsd-kind-icon">add<wbr>Timed<wbr>Mask</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="movieclip.html#addtween" class="tsd-kind-icon">add<wbr>Tween</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="movieclip.html#advance" class="tsd-kind-icon">advance</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="movieclip.html#destroy" class="tsd-kind-icon">destroy</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="movieclip.html#gotoandplay" class="tsd-kind-icon">goto<wbr>And<wbr>Play</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="movieclip.html#gotoandstop" class="tsd-kind-icon">goto<wbr>And<wbr>Stop</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="movieclip.html#play" class="tsd-kind-icon">play</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="movieclip.html#playsound" class="tsd-kind-icon">play<wbr>Sound</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="movieclip.html#setalpha" class="tsd-kind-icon">set<wbr>Alpha</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="movieclip.html#setcolortransform" class="tsd-kind-icon">set<wbr>Color<wbr>Transform</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="movieclip.html#setmask" class="tsd-kind-icon">set<wbr>Mask</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="movieclip.html#setrenderable" class="tsd-kind-icon">set<wbr>Renderable</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="movieclip.html#settint" class="tsd-kind-icon">set<wbr>Tint</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="movieclip.html#stop" class="tsd-kind-icon">stop</a></li>
+							</ul>
+						</section>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Constructors</h2>
+				<section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited">
+					<a name="constructor" class="tsd-anchor"></a>
+					<h3>constructor</h3>
+					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">new <wbr>Movie<wbr>Clip<span class="tsd-signature-symbol">(</span>options<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">MovieClipOptions</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a></li>
+						<li class="tsd-signature tsd-kind-icon">new <wbr>Movie<wbr>Clip<span class="tsd-signature-symbol">(</span>mode<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span>, duration<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span>, loop<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span>, framerate<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span>, labels<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">LabelMap</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="container.html">Container</a>.<a href="container.html#constructor">constructor</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L209">src/animate/MovieClip.ts:209</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> options: <span class="tsd-signature-type">MovieClipOptions</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The options object</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L214">src/animate/MovieClip.ts:214</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> mode: <span class="tsd-signature-type">number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The playback mode default is independent (0),</p>
+									</div>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> duration: <span class="tsd-signature-type">number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The duration, if no duration is provided, auto determines length</p>
+									</div>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> loop: <span class="tsd-signature-type">boolean</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>If playback is looped</p>
+									</div>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> framerate: <span class="tsd-signature-type">number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The framerate to use for independent mode</p>
+									</div>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> labels: <span class="tsd-signature-type">LabelMap</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The frame labels map of label to frames</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="_actions" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> _actions</h3>
+					<div class="tsd-signature tsd-kind-icon">_actions<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">FrameAction</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L197">src/animate/MovieClip.ts:197</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Array of frame scripts, indexed by frame.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="_beforeupdate" class="tsd-anchor"></a>
+					<h3>_before<wbr>Update</h3>
+					<div class="tsd-signature tsd-kind-icon">_before<wbr>Update<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>target<span class="tsd-signature-symbol">: </span><a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L204">src/animate/MovieClip.ts:204</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Optional callback fired before timeline is updated.
+							Can be used to clamp or update the currentFrame.</p>
+						</div>
+					</div>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+							<li class="tsd-parameter-signature">
+								<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-class">
+									<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>target<span class="tsd-signature-symbol">: </span><a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></li>
+								</ul>
+								<ul class="tsd-descriptions">
+									<li class="tsd-description">
+										<h4 class="tsd-parameters-title">Parameters</h4>
+										<ul class="tsd-parameters">
+											<li>
+												<h5>target: <a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a></h5>
+											</li>
+										</ul>
+										<h4 class="tsd-returns-title">Returns <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></h4>
+										<ul class="tsd-parameters">
+											<li class="tsd-parameter-signature">
+												<ul class="tsd-signatures tsd-kind-type-literal">
+													<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+												</ul>
+												<ul class="tsd-descriptions">
+													<li class="tsd-description">
+														<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+													</li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+					<a name="_colortransformfilter" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> _color<wbr>Transform<wbr>Filter</h3>
+					<div class="tsd-signature tsd-kind-icon">_color<wbr>Transform<wbr>Filter<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">ColorMatrixFilter</span></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="container.html">Container</a>.<a href="container.html#_colortransformfilter">_colorTransformFilter</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/Container.ts#L150">src/animate/Container.ts:150</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="_depthsorted" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> _depth<wbr>Sorted</h3>
+					<div class="tsd-signature tsd-kind-icon">_depth<wbr>Sorted<span class="tsd-signature-symbol">:</span> <a href="../modules.html#displayobject" class="tsd-signature-type" data-tsd-kind="Type alias">DisplayObject</a><span class="tsd-signature-symbol">[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L192">src/animate/MovieClip.ts:192</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Array to depth sort timed children</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_duration" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _duration</h3>
+					<div class="tsd-signature tsd-kind-icon">_duration<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L168">src/animate/MovieClip.ts:168</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The total time in seconds for the animation. This is changed when setting the framerate.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="_framerate" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> _framerate</h3>
+					<div class="tsd-signature tsd-kind-icon">_framerate<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L163">src/animate/MovieClip.ts:163</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>By default MovieClip instances advance one frame per tick. Specifying a framerate for the MovieClip
+								will cause it to advance based on elapsed time between ticks as appropriate to maintain the target
+							framerate.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_labeldict" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _label<wbr>Dict</h3>
+					<div class="tsd-signature tsd-kind-icon">_label<wbr>Dict<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">LabelMap</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L114">src/animate/MovieClip.ts:114</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The collection of private labels</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_labels" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _labels</h3>
+					<div class="tsd-signature tsd-kind-icon">_labels<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">FrameLabel</span><span class="tsd-signature-symbol">[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L109">src/animate/MovieClip.ts:109</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The collection of private labels</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_prevpos" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _prev<wbr>Pos</h3>
+					<div class="tsd-signature tsd-kind-icon">_prev<wbr>Pos<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L150">src/animate/MovieClip.ts:150</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Previous position that this movieclip was stopped on.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_synchoffset" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _synch<wbr>Offset</h3>
+					<div class="tsd-signature tsd-kind-icon">_synch<wbr>Offset<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L145">src/animate/MovieClip.ts:145</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Offset from parent frame for a synched movieclip.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_t" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _t</h3>
+					<div class="tsd-signature tsd-kind-icon">_t<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L156">src/animate/MovieClip.ts:156</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Note - changed from default: When the MovieClip is framerate independent, this is the time
+							elapsed from frame 0 in seconds.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="_timedchildtimelines" class="tsd-anchor"></a>
+					<h3>_timed<wbr>Child<wbr>Timelines</h3>
+					<div class="tsd-signature tsd-kind-icon">_timed<wbr>Child<wbr>Timelines<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">TimedChildTimeline</span><span class="tsd-signature-symbol">[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L187">src/animate/MovieClip.ts:187</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Array of child timelines denoting if a child is actively a child of this movieclip
+								on any given frame. Each element in the _timedChildTimelines is an array with a &#39;target&#39;
+							property, and is an array of boolean values indexed by frame.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="_timelines" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> _timelines</h3>
+					<div class="tsd-signature tsd-kind-icon">_timelines<span class="tsd-signature-symbol">:</span> <a href="timeline.html" class="tsd-signature-type" data-tsd-kind="Class">Timeline</a><span class="tsd-signature-symbol">[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L179">src/animate/MovieClip.ts:179</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Standard tween timelines for all objects. Each element in the _timelines array
+							is a Timeline object - an array of tweens for one target, in order of occurrence.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_totalframes" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _total<wbr>Frames</h3>
+					<div class="tsd-signature tsd-kind-icon">_total<wbr>Frames<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L173">src/animate/MovieClip.ts:173</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The total duration in frames for the animation.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+					<a name="a" class="tsd-anchor"></a>
+					<h3>a</h3>
+					<div class="tsd-signature tsd-kind-icon">a<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>alpha<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a><span class="tsd-signature-symbol"> = ...</span></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="container.html">Container</a>.<a href="container.html#a">a</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/Container.ts#L91">src/animate/Container.ts:91</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Shortcut for <code>setAlpha</code>.</p>
+						</div>
+					</div>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+							<li class="tsd-parameter-signature">
+								<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-class">
+									<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>alpha<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a></li>
+								</ul>
+								<ul class="tsd-descriptions">
+									<li class="tsd-description">
+										<div class="tsd-comment tsd-typography">
+											<div class="lead">
+												<p>Chainable setter for alpha</p>
+											</div>
+										</div>
+										<h4 class="tsd-parameters-title">Parameters</h4>
+										<ul class="tsd-parameters">
+											<li>
+												<h5>alpha: <span class="tsd-signature-type">number</span></h5>
+												<div class="tsd-comment tsd-typography">
+													<p>The alpha amount to use, from 0 to 1</p>
+												</div>
+											</li>
+										</ul>
+										<h4 class="tsd-returns-title">Returns <a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a></h4>
+										<p>Instance for chaining</p>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="aa" class="tsd-anchor"></a>
+					<h3>aa</h3>
+					<div class="tsd-signature tsd-kind-icon">aa<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>callback<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">FrameAction</span>, startFrame<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a><span class="tsd-signature-symbol"> = ...</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L661">src/animate/MovieClip.ts:661</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Short cut for <code>addAction</code></p>
+						</div>
+					</div>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+							<li class="tsd-parameter-signature">
+								<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-class">
+									<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>callback<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">FrameAction</span>, startFrame<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a></li>
+								</ul>
+								<ul class="tsd-descriptions">
+									<li class="tsd-description">
+										<div class="tsd-comment tsd-typography">
+											<div class="lead">
+												<p>Handle frame actions, callback is bound to the instance of the MovieClip.</p>
+											</div>
+										</div>
+										<h4 class="tsd-parameters-title">Parameters</h4>
+										<ul class="tsd-parameters">
+											<li>
+												<h5>callback: <span class="tsd-signature-type">FrameAction</span></h5>
+												<div class="tsd-comment tsd-typography">
+													<p>The clip call on a certain frame</p>
+												</div>
+											</li>
+											<li>
+												<h5>startFrame: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></h5>
+												<div class="tsd-comment tsd-typography">
+													<p>The starting frame index or label</p>
+												</div>
+											</li>
+										</ul>
+										<h4 class="tsd-returns-title">Returns <a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a></h4>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+					<a name="ac" class="tsd-anchor"></a>
+					<h3>ac</h3>
+					<div class="tsd-signature tsd-kind-icon">ac<span class="tsd-signature-symbol">:</span> &lt;T&gt;<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span>children<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">[</span><span class="tsd-signature-type">0</span><span class="tsd-signature-symbol">]</span><span class="tsd-signature-symbol"> = ...</span></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="container.html">Container</a>.<a href="container.html#ac">ac</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/Container.ts#L19">src/animate/Container.ts:19</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Shortcut for <code>addChild</code>.</p>
+						</div>
+					</div>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+							<li class="tsd-parameter-signature">
+								<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-class tsd-has-type-parameter">
+									<li class="tsd-signature tsd-kind-icon">&lt;T&gt;<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span>children<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">[</span><span class="tsd-signature-type">0</span><span class="tsd-signature-symbol">]</span></li>
+								</ul>
+								<ul class="tsd-descriptions">
+									<li class="tsd-description">
+										<div class="tsd-comment tsd-typography">
+											<div class="lead">
+												<p>Adds one or more children to the container.</p>
+											</div>
+											<p>Multiple items can be added like so: <code>myContainer.addChild(thingOne, thingTwo, thingThree)</code></p>
+										</div>
+										<h4 class="tsd-type-parameters-title">Type parameters</h4>
+										<ul class="tsd-type-parameters">
+											<li>
+												<h4>T<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">DisplayObject</span><span class="tsd-signature-symbol">[]</span></h4>
+											</li>
+										</ul>
+										<h4 class="tsd-parameters-title">Parameters</h4>
+										<ul class="tsd-parameters">
+											<li>
+												<h5><span class="tsd-flag ts-flagRest">Rest</span> <span class="tsd-signature-symbol">...</span>children: <span class="tsd-signature-type">T</span></h5>
+												<div class="tsd-comment tsd-typography">
+													<p>The DisplayObject(s) to add to the container</p>
+												</div>
+											</li>
+										</ul>
+										<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">[</span><span class="tsd-signature-type">0</span><span class="tsd-signature-symbol">]</span></h4>
+										<p>The first child that was added.</p>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="actionsenabled" class="tsd-anchor"></a>
+					<h3>actions<wbr>Enabled</h3>
+					<div class="tsd-signature tsd-kind-icon">actions<wbr>Enabled<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L129">src/animate/MovieClip.ts:129</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>If true, actions in this MovieClip&#39;s tweens will be run when the playhead advances.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="am" class="tsd-anchor"></a>
+					<h3>am</h3>
+					<div class="tsd-signature tsd-kind-icon">am<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>instance<span class="tsd-signature-symbol">: </span><a href="../modules.html#displayobject" class="tsd-signature-type" data-tsd-kind="Type alias">DisplayObject</a>, keyframes<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">{}</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a><span class="tsd-signature-symbol"> = ...</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L514">src/animate/MovieClip.ts:514</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Shortcut alias for <code>addTimedMask</code></p>
+						</div>
+					</div>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+							<li class="tsd-parameter-signature">
+								<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-class">
+									<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>instance<span class="tsd-signature-symbol">: </span><a href="../modules.html#displayobject" class="tsd-signature-type" data-tsd-kind="Type alias">DisplayObject</a>, keyframes<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">{}</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a></li>
+								</ul>
+								<ul class="tsd-descriptions">
+									<li class="tsd-description">
+										<div class="tsd-comment tsd-typography">
+											<div class="lead">
+												<p>Add mask or masks</p>
+											</div>
+										</div>
+										<h4 class="tsd-parameters-title">Parameters</h4>
+										<ul class="tsd-parameters">
+											<li>
+												<h5>instance: <a href="../modules.html#displayobject" class="tsd-signature-type" data-tsd-kind="Type alias">DisplayObject</a></h5>
+											</li>
+											<li>
+												<h5>keyframes: <span class="tsd-signature-symbol">{}</span></h5>
+												<ul class="tsd-parameters">
+													<li class="tsd-parameter-index-signature">
+														<h5><span class="tsd-signature-symbol">[</span>frame: <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">]: </span><span class="tsd-signature-type">Graphics</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Sprite</span></h5>
+													</li>
+												</ul>
+											</li>
+										</ul>
+										<h4 class="tsd-returns-title">Returns <a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a></h4>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="at" class="tsd-anchor"></a>
+					<h3>at</h3>
+					<div class="tsd-signature tsd-kind-icon">at<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>instance<span class="tsd-signature-symbol">: </span><a href="../modules.html#displayobject" class="tsd-signature-type" data-tsd-kind="Type alias">DisplayObject</a>, startFrame<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, duration<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span>, keyframes<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-symbol">{}</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a><span class="tsd-signature-symbol"> = ...</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L574">src/animate/MovieClip.ts:574</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Alias for method <code>addTimedChild</code></p>
+						</div>
+					</div>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+							<li class="tsd-parameter-signature">
+								<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-class">
+									<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>instance<span class="tsd-signature-symbol">: </span><a href="../modules.html#displayobject" class="tsd-signature-type" data-tsd-kind="Type alias">DisplayObject</a>, startFrame<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, duration<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span>, keyframes<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-symbol">{}</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a></li>
+								</ul>
+								<ul class="tsd-descriptions">
+									<li class="tsd-description">
+										<div class="tsd-comment tsd-typography">
+											<div class="lead">
+												<p>Add a child to show for a certain number of frames before automatic removal.</p>
+											</div>
+										</div>
+										<h4 class="tsd-parameters-title">Parameters</h4>
+										<ul class="tsd-parameters">
+											<li>
+												<h5>instance: <a href="../modules.html#displayobject" class="tsd-signature-type" data-tsd-kind="Type alias">DisplayObject</a></h5>
+												<div class="tsd-comment tsd-typography">
+													<p>The clip to show</p>
+												</div>
+											</li>
+											<li>
+												<h5>startFrame: <span class="tsd-signature-type">number</span></h5>
+												<div class="tsd-comment tsd-typography">
+													<p>The starting frame</p>
+												</div>
+											</li>
+											<li>
+												<h5><span class="tsd-flag ts-flagOptional">Optional</span> duration: <span class="tsd-signature-type">number</span></h5>
+												<div class="tsd-comment tsd-typography">
+													<p>The number of frames to display the child before removing it.</p>
+												</div>
+											</li>
+											<li>
+												<h5><span class="tsd-flag ts-flagOptional">Optional</span> keyframes: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-symbol">{}</span></h5>
+												<div class="tsd-comment tsd-typography">
+													<p>The collection of static keyframes to add</p>
+												</div>
+											</li>
+										</ul>
+										<h4 class="tsd-returns-title">Returns <a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a></h4>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="autoreset" class="tsd-anchor"></a>
+					<h3>auto<wbr>Reset</h3>
+					<div class="tsd-signature tsd-kind-icon">auto<wbr>Reset<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L140">src/animate/MovieClip.ts:140</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>If true, the MovieClip will automatically be reset to its first frame whenever the timeline adds
+								it back onto the display list. This only applies to MovieClip instances with mode=INDEPENDENT.
+								<br><br>
+								For example, if you had a character animation with a &#39;body&#39; child MovieClip instance
+								with different costumes on each frame, you could set body.autoReset = false, so that
+								you can manually change the frame it is on, without worrying that it will be reset
+							automatically.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+					<a name="c" class="tsd-anchor"></a>
+					<h3>c</h3>
+					<div class="tsd-signature tsd-kind-icon">c<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>r<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, rA<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, g<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, gA<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, b<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, bA<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a><span class="tsd-signature-symbol"> = ...</span></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="container.html">Container</a>.<a href="container.html#c">c</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/Container.ts#L148">src/animate/Container.ts:148</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Shortcut for <code>setColor</code>.</p>
+						</div>
+					</div>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+							<li class="tsd-parameter-signature">
+								<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-class">
+									<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>r<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, rA<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, g<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, gA<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, b<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, bA<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a></li>
+								</ul>
+								<ul class="tsd-descriptions">
+									<li class="tsd-description">
+										<div class="tsd-comment tsd-typography">
+											<div class="lead">
+												<p>Set additive and multiply color, tinting</p>
+											</div>
+										</div>
+										<h4 class="tsd-parameters-title">Parameters</h4>
+										<ul class="tsd-parameters">
+											<li>
+												<h5>r: <span class="tsd-signature-type">number</span></h5>
+												<div class="tsd-comment tsd-typography">
+													<p>The multiply red value</p>
+												</div>
+											</li>
+											<li>
+												<h5>rA: <span class="tsd-signature-type">number</span></h5>
+												<div class="tsd-comment tsd-typography">
+													<p>The additive red value</p>
+												</div>
+											</li>
+											<li>
+												<h5>g: <span class="tsd-signature-type">number</span></h5>
+												<div class="tsd-comment tsd-typography">
+													<p>The multiply green value</p>
+												</div>
+											</li>
+											<li>
+												<h5>gA: <span class="tsd-signature-type">number</span></h5>
+												<div class="tsd-comment tsd-typography">
+													<p>The additive green value</p>
+												</div>
+											</li>
+											<li>
+												<h5>b: <span class="tsd-signature-type">number</span></h5>
+												<div class="tsd-comment tsd-typography">
+													<p>The multiply blue value</p>
+												</div>
+											</li>
+											<li>
+												<h5>bA: <span class="tsd-signature-type">number</span></h5>
+												<div class="tsd-comment tsd-typography">
+													<p>The additive blue value</p>
+												</div>
+											</li>
+										</ul>
+										<h4 class="tsd-returns-title">Returns <a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a></h4>
+										<p>Object for chaining</p>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="currentframe" class="tsd-anchor"></a>
+					<h3>current<wbr>Frame</h3>
+					<div class="tsd-signature tsd-kind-icon">current<wbr>Frame<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L104">src/animate/MovieClip.ts:104</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The current frame of the movieclip.</p>
+						</div>
+						<dl class="tsd-comment-tags">
+							<dt>readonly</dt>
+							<dd></dd>
+						</dl>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+					<a name="i" class="tsd-anchor"></a>
+					<h3>i</h3>
+					<div class="tsd-signature tsd-kind-icon">i<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>tint<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a><span class="tsd-signature-symbol"> = ...</span></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="container.html">Container</a>.<a href="container.html#i">i</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/Container.ts#L119">src/animate/Container.ts:119</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Shortcut for <code>setTint</code>.</p>
+						</div>
+					</div>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+							<li class="tsd-parameter-signature">
+								<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-class">
+									<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>tint<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a></li>
+								</ul>
+								<ul class="tsd-descriptions">
+									<li class="tsd-description">
+										<div class="tsd-comment tsd-typography">
+											<div class="lead">
+												<p>Set the tint values by color.</p>
+											</div>
+										</div>
+										<h4 class="tsd-parameters-title">Parameters</h4>
+										<ul class="tsd-parameters">
+											<li>
+												<h5>tint: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></h5>
+												<div class="tsd-comment tsd-typography">
+													<p>The color value to tint</p>
+												</div>
+											</li>
+										</ul>
+										<h4 class="tsd-returns-title">Returns <a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a></h4>
+										<p>Object for chaining</p>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="loop" class="tsd-anchor"></a>
+					<h3>loop</h3>
+					<div class="tsd-signature tsd-kind-icon">loop<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L98">src/animate/MovieClip.ts:98</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Indicates whether this MovieClip should loop when it reaches the end of its timeline.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+					<a name="ma" class="tsd-anchor"></a>
+					<h3>ma</h3>
+					<div class="tsd-signature tsd-kind-icon">ma<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>mask<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Graphics</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Sprite</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a><span class="tsd-signature-symbol"> = ...</span></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="container.html">Container</a>.<a href="container.html#ma">ma</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/Container.ts#L75">src/animate/Container.ts:75</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Shortcut for <code>setMask</code>.</p>
+						</div>
+					</div>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+							<li class="tsd-parameter-signature">
+								<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-class">
+									<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>mask<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Graphics</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Sprite</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a></li>
+								</ul>
+								<ul class="tsd-descriptions">
+									<li class="tsd-description">
+										<div class="tsd-comment tsd-typography">
+											<div class="lead">
+												<p>Setter for mask to be able to chain.</p>
+											</div>
+										</div>
+										<h4 class="tsd-parameters-title">Parameters</h4>
+										<ul class="tsd-parameters">
+											<li>
+												<h5>mask: <span class="tsd-signature-type">Graphics</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Sprite</span></h5>
+												<div class="tsd-comment tsd-typography">
+													<p>The mask shape to use</p>
+												</div>
+											</li>
+										</ul>
+										<h4 class="tsd-returns-title">Returns <a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a></h4>
+										<p>Instance for chaining</p>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="mode" class="tsd-anchor"></a>
+					<h3>mode</h3>
+					<div class="tsd-signature tsd-kind-icon">mode<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L88">src/animate/MovieClip.ts:88</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Controls how this MovieClip advances its time. Must be one of 0 (INDEPENDENT), 1 (SINGLE_FRAME), or 2 (SYNCHED).
+							See each constant for a description of the behaviour.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="parentstartposition" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> parent<wbr>Start<wbr>Position</h3>
+					<div class="tsd-signature tsd-kind-icon">parent<wbr>Start<wbr>Position<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L209">src/animate/MovieClip.ts:209</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Internal property used to control child MovieClips relative to parents.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="paused" class="tsd-anchor"></a>
+					<h3>paused</h3>
+					<div class="tsd-signature tsd-kind-icon">paused<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L124">src/animate/MovieClip.ts:124</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>If true, the MovieClip&#39;s position will not advance when ticked.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="ps" class="tsd-anchor"></a>
+					<h3>ps</h3>
+					<div class="tsd-signature tsd-kind-icon">ps<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>alias<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, loop<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a><span class="tsd-signature-symbol"> = ...</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L708">src/animate/MovieClip.ts:708</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Short cut for <code>playSound</code></p>
+						</div>
+					</div>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+							<li class="tsd-parameter-signature">
+								<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-class">
+									<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>alias<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, loop<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a></li>
+								</ul>
+								<ul class="tsd-descriptions">
+									<li class="tsd-description">
+										<div class="tsd-comment tsd-typography">
+											<div class="lead">
+												<p>Handle sounds.</p>
+											</div>
+											<dl class="tsd-comment-tags">
+												<dt>method</dt>
+												<dd><p>PIXI.animate.MovieClip#playSound</p>
+												</dd>
+											</dl>
+										</div>
+										<h4 class="tsd-parameters-title">Parameters</h4>
+										<ul class="tsd-parameters">
+											<li>
+												<h5>alias: <span class="tsd-signature-type">string</span></h5>
+												<div class="tsd-comment tsd-typography">
+													<p>The name of the Sound</p>
+												</div>
+											</li>
+											<li>
+												<h5><span class="tsd-flag ts-flagOptional">Optional</span> loop: <span class="tsd-signature-type">boolean</span></h5>
+											</li>
+										</ul>
+										<h4 class="tsd-returns-title">Returns <a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a></h4>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+					<a name="re" class="tsd-anchor"></a>
+					<h3>re</h3>
+					<div class="tsd-signature tsd-kind-icon">re<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>renderable<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a><span class="tsd-signature-symbol"> = ...</span></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="container.html">Container</a>.<a href="container.html#re">re</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/Container.ts#L39">src/animate/Container.ts:39</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Shortcut for <code>setRenderable</code>.</p>
+						</div>
+					</div>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+							<li class="tsd-parameter-signature">
+								<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-class">
+									<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>renderable<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a></li>
+								</ul>
+								<ul class="tsd-descriptions">
+									<li class="tsd-description">
+										<div class="tsd-comment tsd-typography">
+											<div class="lead">
+												<p>Function to set if this is renderable or not. Useful for setting masks.</p>
+											</div>
+										</div>
+										<h4 class="tsd-parameters-title">Parameters</h4>
+										<ul class="tsd-parameters">
+											<li>
+												<h5><span class="tsd-flag ts-flagOptional">Optional</span> renderable: <span class="tsd-signature-type">boolean</span></h5>
+												<div class="tsd-comment tsd-typography">
+													<p>Make renderable. Defaults to false.</p>
+												</div>
+											</li>
+										</ul>
+										<h4 class="tsd-returns-title">Returns <a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a></h4>
+										<p>This instance, for chaining.</p>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="selfadvance" class="tsd-anchor"></a>
+					<h3>self<wbr>Advance</h3>
+					<div class="tsd-signature tsd-kind-icon">self<wbr>Advance<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L119">src/animate/MovieClip.ts:119</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>If true, this movieclip will animate automatically whenever it is on the stage.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="startposition" class="tsd-anchor"></a>
+					<h3>start<wbr>Position</h3>
+					<div class="tsd-signature tsd-kind-icon">start<wbr>Position<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L93">src/animate/MovieClip.ts:93</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Specifies what the first frame to play in this movieclip, or the only frame to display if mode is SINGLE_FRAME.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+					<a name="t" class="tsd-anchor"></a>
+					<h3>t</h3>
+					<div class="tsd-signature tsd-kind-icon">t<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>x<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span>, y<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span>, scaleX<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span>, scaleY<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span>, rotation<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span>, skewX<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span>, skewY<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span>, pivotX<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span>, pivotY<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a><span class="tsd-signature-symbol"> = ...</span></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="container.html">Container</a>.<a href="container.html#t">t</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/Container.ts#L44">src/animate/Container.ts:44</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Shortcut for <code>setTransform</code>.</p>
+						</div>
+					</div>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+							<li class="tsd-parameter-signature">
+								<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-class">
+									<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>x<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span>, y<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span>, scaleX<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span>, scaleY<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span>, rotation<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span>, skewX<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span>, skewY<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span>, pivotX<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span>, pivotY<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a></li>
+								</ul>
+								<ul class="tsd-descriptions">
+									<li class="tsd-description">
+										<div class="tsd-comment tsd-typography">
+											<div class="lead">
+												<p>Convenience function to set the position, scale, skew and pivot at once.</p>
+											</div>
+										</div>
+										<h4 class="tsd-parameters-title">Parameters</h4>
+										<ul class="tsd-parameters">
+											<li>
+												<h5><span class="tsd-flag ts-flagOptional">Optional</span> x: <span class="tsd-signature-type">number</span></h5>
+											</li>
+											<li>
+												<h5><span class="tsd-flag ts-flagOptional">Optional</span> y: <span class="tsd-signature-type">number</span></h5>
+											</li>
+											<li>
+												<h5><span class="tsd-flag ts-flagOptional">Optional</span> scaleX: <span class="tsd-signature-type">number</span></h5>
+											</li>
+											<li>
+												<h5><span class="tsd-flag ts-flagOptional">Optional</span> scaleY: <span class="tsd-signature-type">number</span></h5>
+											</li>
+											<li>
+												<h5><span class="tsd-flag ts-flagOptional">Optional</span> rotation: <span class="tsd-signature-type">number</span></h5>
+											</li>
+											<li>
+												<h5><span class="tsd-flag ts-flagOptional">Optional</span> skewX: <span class="tsd-signature-type">number</span></h5>
+											</li>
+											<li>
+												<h5><span class="tsd-flag ts-flagOptional">Optional</span> skewY: <span class="tsd-signature-type">number</span></h5>
+											</li>
+											<li>
+												<h5><span class="tsd-flag ts-flagOptional">Optional</span> pivotX: <span class="tsd-signature-type">number</span></h5>
+											</li>
+											<li>
+												<h5><span class="tsd-flag ts-flagOptional">Optional</span> pivotY: <span class="tsd-signature-type">number</span></h5>
+											</li>
+										</ul>
+										<h4 class="tsd-returns-title">Returns <a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a></h4>
+										<p>The DisplayObject instance</p>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="tw" class="tsd-anchor"></a>
+					<h3>tw</h3>
+					<div class="tsd-signature tsd-kind-icon">tw<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>instance<span class="tsd-signature-symbol">: </span><a href="../modules.html#displayobject" class="tsd-signature-type" data-tsd-kind="Type alias">DisplayObject</a>, properties<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">TweenProps</span>, startFrame<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, duration<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span>, ease<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">EaseMethod</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a><span class="tsd-signature-symbol"> = ...</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L519">src/animate/MovieClip.ts:519</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Shortcut alias for <code>addTween</code></p>
+						</div>
+					</div>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+							<li class="tsd-parameter-signature">
+								<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-class">
+									<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>instance<span class="tsd-signature-symbol">: </span><a href="../modules.html#displayobject" class="tsd-signature-type" data-tsd-kind="Type alias">DisplayObject</a>, properties<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">TweenProps</span>, startFrame<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, duration<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span>, ease<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">EaseMethod</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a></li>
+								</ul>
+								<ul class="tsd-descriptions">
+									<li class="tsd-description">
+										<div class="tsd-comment tsd-typography">
+											<div class="lead">
+												<p>Add a tween to the clip</p>
+											</div>
+										</div>
+										<h4 class="tsd-parameters-title">Parameters</h4>
+										<ul class="tsd-parameters">
+											<li>
+												<h5>instance: <a href="../modules.html#displayobject" class="tsd-signature-type" data-tsd-kind="Type alias">DisplayObject</a></h5>
+												<div class="tsd-comment tsd-typography">
+													<p>The clip to tween</p>
+												</div>
+											</li>
+											<li>
+												<h5>properties: <span class="tsd-signature-type">TweenProps</span></h5>
+												<div class="tsd-comment tsd-typography">
+													<p>The property or property to tween</p>
+												</div>
+											</li>
+											<li>
+												<h5>startFrame: <span class="tsd-signature-type">number</span></h5>
+												<div class="tsd-comment tsd-typography">
+													<p>The frame to start tweening</p>
+												</div>
+											</li>
+											<li>
+												<h5><span class="tsd-flag ts-flagOptional">Optional</span> duration: <span class="tsd-signature-type">number</span></h5>
+												<div class="tsd-comment tsd-typography">
+													<p>Number of frames to tween. If 0, then the properties are set with no tweening.</p>
+												</div>
+											</li>
+											<li>
+												<h5><span class="tsd-flag ts-flagOptional">Optional</span> ease: <span class="tsd-signature-type">EaseMethod</span></h5>
+												<div class="tsd-comment tsd-typography">
+													<p>An optional easing function that takes the tween time from 0-1.</p>
+												</div>
+											</li>
+										</ul>
+										<h4 class="tsd-returns-title">Returns <a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a></h4>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static">
+					<a name="default_framerate" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> <span class="tsd-flag ts-flagStatic">Static</span> DEFAULT_<wbr>FRAMERATE</h3>
+					<div class="tsd-signature tsd-kind-icon">DEFAULT_<wbr>FRAMERATE<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">24</span><span class="tsd-signature-symbol"> = 24</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L82">src/animate/MovieClip.ts:82</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The default framerate if none is specified or there&#39;s not parent clip with a framerate.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static">
+					<a name="independent" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> <span class="tsd-flag ts-flagStatic">Static</span> INDEPENDENT</h3>
+					<div class="tsd-signature tsd-kind-icon">INDEPENDENT<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">0</span><span class="tsd-signature-symbol"> = 0</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L66">src/animate/MovieClip.ts:66</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The MovieClip will advance independently of its parent, even if its parent is paused.
+							This is the default mode.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static">
+					<a name="single_frame" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> <span class="tsd-flag ts-flagStatic">Static</span> SINGLE_<wbr>FRAME</h3>
+					<div class="tsd-signature tsd-kind-icon">SINGLE_<wbr>FRAME<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">1</span><span class="tsd-signature-symbol"> = 1</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L71">src/animate/MovieClip.ts:71</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The MovieClip will only display a single frame (as determined by the startPosition property).</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static">
+					<a name="synched" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> <span class="tsd-flag ts-flagStatic">Static</span> SYNCHED</h3>
+					<div class="tsd-signature tsd-kind-icon">SYNCHED<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">2</span><span class="tsd-signature-symbol"> = 2</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L77">src/animate/MovieClip.ts:77</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The MovieClip will be advanced only when its parent advances and will be synched to the position of
+							the parent MovieClip.</p>
+						</div>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Accessors</h2>
+				<section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited">
+					<a name="colortransformfilter" class="tsd-anchor"></a>
+					<h3>color<wbr>Transform<wbr>Filter</h3>
+					<ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> colorTransformFilter<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ColorMatrixFilter</span></li>
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">set</span> colorTransformFilter<span class="tsd-signature-symbol">(</span>filter<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ColorMatrixFilter</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/Container.ts#L158">src/animate/Container.ts:158</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>The current default color transforming filters</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">ColorMatrixFilter</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/Container.ts#L154">src/animate/Container.ts:154</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>The current default color transforming filters</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>filter: <span class="tsd-signature-type">ColorMatrixFilter</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class">
+					<a name="currentlabel" class="tsd-anchor"></a>
+					<h3>current<wbr>Label</h3>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> currentLabel<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L368">src/animate/MovieClip.ts:368</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns the name of the label on or immediately before the current frame.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class">
+					<a name="elapsedtime" class="tsd-anchor"></a>
+					<h3>elapsed<wbr>Time</h3>
+					<ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> elapsedTime<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">set</span> elapsedTime<span class="tsd-signature-symbol">(</span>value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L391">src/animate/MovieClip.ts:391</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>When the MovieClip is framerate independent, this is the time elapsed from frame 0 in seconds.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L396">src/animate/MovieClip.ts:396</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>When the MovieClip is framerate independent, this is the time elapsed from frame 0 in seconds.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>value: <span class="tsd-signature-type">number</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class">
+					<a name="framerate" class="tsd-anchor"></a>
+					<h3>framerate</h3>
+					<ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> framerate<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">set</span> framerate<span class="tsd-signature-symbol">(</span>value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L413">src/animate/MovieClip.ts:413</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>By default MovieClip instances advance one frame per tick. Specifying a framerate for the
+										MovieClip will cause it to advance based on elapsed time between ticks as appropriate to
+									maintain the target framerate.</p>
+								</div>
+								<p>For example, if a MovieClip with a framerate of 10 is placed on a Stage being updated at
+									40fps, then the MovieClip advance roughly one frame every 4 ticks. This will not be exact,
+								because the time between each tick vary slightly between frames.</p>
+								<p>This feature is dependent on the tick event object (or an object with an appropriate &#39;delta&#39; property) being
+								passed into {{#crossLink &#39;Stage/update&#39;}}{{/crossLink}}.</p>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L417">src/animate/MovieClip.ts:417</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>By default MovieClip instances advance one frame per tick. Specifying a framerate for the
+										MovieClip will cause it to advance based on elapsed time between ticks as appropriate to
+									maintain the target framerate.</p>
+								</div>
+								<p>For example, if a MovieClip with a framerate of 10 is placed on a Stage being updated at
+									40fps, then the MovieClip advance roughly one frame every 4 ticks. This will not be exact,
+								because the time between each tick vary slightly between frames.</p>
+								<p>This feature is dependent on the tick event object (or an object with an appropriate &#39;delta&#39; property) being
+								passed into {{#crossLink &#39;Stage/update&#39;}}{{/crossLink}}.</p>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>value: <span class="tsd-signature-type">number</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class">
+					<a name="labels" class="tsd-anchor"></a>
+					<h3>labels</h3>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> labels<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">FrameLabel</span><span class="tsd-signature-symbol">[]</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L352">src/animate/MovieClip.ts:352</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns an array of objects with label and position (aka frame) properties, sorted by position.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">FrameLabel</span><span class="tsd-signature-symbol">[]</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class">
+					<a name="labelsmap" class="tsd-anchor"></a>
+					<h3>labels<wbr>Map</h3>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> labelsMap<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">LabelMap</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L360">src/animate/MovieClip.ts:360</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns a dictionary of labels where key is the label and value is the frame.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">LabelMap</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class">
+					<a name="parentframerate" class="tsd-anchor"></a>
+					<h3>parent<wbr>Framerate</h3>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> parentFramerate<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L762">src/animate/MovieClip.ts:762</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Get the close parent with a valid framerate. If no parent, returns the default framerate.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class">
+					<a name="totalframes" class="tsd-anchor"></a>
+					<h3>total<wbr>Frames</h3>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> totalFrames<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L442">src/animate/MovieClip.ts:442</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Get the total number of frames (duration) of this MovieClip</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Methods</h2>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="_autoextend" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _auto<wbr>Extend</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">_auto<wbr>Extend<span class="tsd-signature-symbol">(</span>endFrame<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L450">src/animate/MovieClip.ts:450</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Extend the timeline to the last frame.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>endFrame: <span class="tsd-signature-type">number</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="_getchildtimeline" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _get<wbr>Child<wbr>Timeline</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">_get<wbr>Child<wbr>Timeline<span class="tsd-signature-symbol">(</span>instance<span class="tsd-signature-symbol">: </span><a href="../modules.html#displayobject" class="tsd-signature-type" data-tsd-kind="Type alias">DisplayObject</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="timeline.html" class="tsd-signature-type" data-tsd-kind="Class">Timeline</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L477">src/animate/MovieClip.ts:477</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Get a timeline for a child, synced timeline.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>instance: <a href="../modules.html#displayobject" class="tsd-signature-type" data-tsd-kind="Type alias">DisplayObject</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="timeline.html" class="tsd-signature-type" data-tsd-kind="Class">Timeline</a></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="_goto" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> _goto</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">_goto<span class="tsd-signature-symbol">(</span>positionOrLabel<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L826">src/animate/MovieClip.ts:826</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>positionOrLabel: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The animation name or frame number to go to.</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="_onadded" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _on<wbr>Added</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">_on<wbr>Added<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L318">src/animate/MovieClip.ts:318</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="_onremoved" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _on<wbr>Removed</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">_on<wbr>Removed<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L344">src/animate/MovieClip.ts:344</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="_parseproperties" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _parse<wbr>Properties</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">_parse<wbr>Properties<span class="tsd-signature-symbol">(</span>properties<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">TweenProps</span><span class="tsd-signature-symbol"> &amp; </span><span class="tsd-signature-symbol">{ </span>t<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>v<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L461">src/animate/MovieClip.ts:461</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Convert values of properties</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>properties: <span class="tsd-signature-type">TweenProps</span><span class="tsd-signature-symbol"> &amp; </span><span class="tsd-signature-symbol">{ </span>t<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>v<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> }</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="_reset" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _reset</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">_reset<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L860">src/animate/MovieClip.ts:860</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Reset the movieclip to the first frame (without advancing the timeline).</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="_settimelineposition" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> _set<wbr>Timeline<wbr>Position</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">_set<wbr>Timeline<wbr>Position<span class="tsd-signature-symbol">(</span>startFrame<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, currentFrame<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, doActions<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L898">src/animate/MovieClip.ts:898</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Set the timeline position</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>startFrame: <span class="tsd-signature-type">number</span></h5>
+								</li>
+								<li>
+									<h5>currentFrame: <span class="tsd-signature-type">number</span></h5>
+								</li>
+								<li>
+									<h5>doActions: <span class="tsd-signature-type">boolean</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="_ticklistener" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _tick<wbr>Listener</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">_tick<wbr>Listener<span class="tsd-signature-symbol">(</span>tickerDeltaTime<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L327">src/animate/MovieClip.ts:327</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>tickerDeltaTime: <span class="tsd-signature-type">number</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="_updatetimeline" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _update<wbr>Timeline</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">_update<wbr>Timeline<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L871">src/animate/MovieClip.ts:871</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Update timeline position according to playback, performing actions and updating children.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="addaction" class="tsd-anchor"></a>
+					<h3>add<wbr>Action</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">add<wbr>Action<span class="tsd-signature-symbol">(</span>callback<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">FrameAction</span>, startFrame<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L668">src/animate/MovieClip.ts:668</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Handle frame actions, callback is bound to the instance of the MovieClip.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>callback: <span class="tsd-signature-type">FrameAction</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The clip call on a certain frame</p>
+									</div>
+								</li>
+								<li>
+									<h5>startFrame: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The starting frame index or label</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="addkeyframe" class="tsd-anchor"></a>
+					<h3>add<wbr>Keyframe</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">add<wbr>Keyframe<span class="tsd-signature-symbol">(</span>instance<span class="tsd-signature-symbol">: </span><a href="../modules.html#displayobject" class="tsd-signature-type" data-tsd-kind="Type alias">DisplayObject</a>, properties<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">KeyframeData</span>, startFrame<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L550">src/animate/MovieClip.ts:550</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Add a tween to the clip</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>instance: <a href="../modules.html#displayobject" class="tsd-signature-type" data-tsd-kind="Type alias">DisplayObject</a></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The clip to tween</p>
+									</div>
+								</li>
+								<li>
+									<h5>properties: <span class="tsd-signature-type">KeyframeData</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The property or property to tween</p>
+									</div>
+								</li>
+								<li>
+									<h5>startFrame: <span class="tsd-signature-type">number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The frame to start tweening</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="addtimedchild" class="tsd-anchor"></a>
+					<h3>add<wbr>Timed<wbr>Child</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">add<wbr>Timed<wbr>Child<span class="tsd-signature-symbol">(</span>instance<span class="tsd-signature-symbol">: </span><a href="../modules.html#displayobject" class="tsd-signature-type" data-tsd-kind="Type alias">DisplayObject</a>, startFrame<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, duration<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span>, keyframes<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-symbol">{}</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L583">src/animate/MovieClip.ts:583</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Add a child to show for a certain number of frames before automatic removal.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>instance: <a href="../modules.html#displayobject" class="tsd-signature-type" data-tsd-kind="Type alias">DisplayObject</a></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The clip to show</p>
+									</div>
+								</li>
+								<li>
+									<h5>startFrame: <span class="tsd-signature-type">number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The starting frame</p>
+									</div>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> duration: <span class="tsd-signature-type">number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The number of frames to display the child before removing it.</p>
+									</div>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> keyframes: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-symbol">{}</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The collection of static keyframes to add</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="addtimedmask" class="tsd-anchor"></a>
+					<h3>add<wbr>Timed<wbr>Mask</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">add<wbr>Timed<wbr>Mask<span class="tsd-signature-symbol">(</span>instance<span class="tsd-signature-symbol">: </span><a href="../modules.html#displayobject" class="tsd-signature-type" data-tsd-kind="Type alias">DisplayObject</a>, keyframes<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">{}</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L496">src/animate/MovieClip.ts:496</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Add mask or masks</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>instance: <a href="../modules.html#displayobject" class="tsd-signature-type" data-tsd-kind="Type alias">DisplayObject</a></h5>
+								</li>
+								<li>
+									<h5>keyframes: <span class="tsd-signature-symbol">{}</span></h5>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter-index-signature">
+											<h5><span class="tsd-signature-symbol">[</span>frame: <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">]: </span><span class="tsd-signature-type">Graphics</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Sprite</span></h5>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="addtween" class="tsd-anchor"></a>
+					<h3>add<wbr>Tween</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">add<wbr>Tween<span class="tsd-signature-symbol">(</span>instance<span class="tsd-signature-symbol">: </span><a href="../modules.html#displayobject" class="tsd-signature-type" data-tsd-kind="Type alias">DisplayObject</a>, properties<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">TweenProps</span>, startFrame<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, duration<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span>, ease<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">EaseMethod</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L529">src/animate/MovieClip.ts:529</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Add a tween to the clip</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>instance: <a href="../modules.html#displayobject" class="tsd-signature-type" data-tsd-kind="Type alias">DisplayObject</a></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The clip to tween</p>
+									</div>
+								</li>
+								<li>
+									<h5>properties: <span class="tsd-signature-type">TweenProps</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The property or property to tween</p>
+									</div>
+								</li>
+								<li>
+									<h5>startFrame: <span class="tsd-signature-type">number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The frame to start tweening</p>
+									</div>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> duration: <span class="tsd-signature-type">number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Number of frames to tween. If 0, then the properties are set with no tweening.</p>
+									</div>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> ease: <span class="tsd-signature-type">EaseMethod</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>An optional easing function that takes the tween time from 0-1.</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="advance" class="tsd-anchor"></a>
+					<h3>advance</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">advance<span class="tsd-signature-symbol">(</span>time<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L783">src/animate/MovieClip.ts:783</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Advances the playhead. This occurs automatically each tick by default.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> time: <span class="tsd-signature-type">number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The amount of time in seconds to advance by. Only applicable if framerate is set.</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="destroy" class="tsd-anchor"></a>
+					<h3>destroy</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">destroy<span class="tsd-signature-symbol">(</span>options<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">IDestroyOptions</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L1063">src/animate/MovieClip.ts:1063</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> options: <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">IDestroyOptions</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="gotoandplay" class="tsd-anchor"></a>
+					<h3>goto<wbr>And<wbr>Play</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">goto<wbr>And<wbr>Play<span class="tsd-signature-symbol">(</span>positionOrLabel<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L743">src/animate/MovieClip.ts:743</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Advances this movie clip to the specified position or label and sets paused to false.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>positionOrLabel: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The animation name or frame number to go to.</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="gotoandstop" class="tsd-anchor"></a>
+					<h3>goto<wbr>And<wbr>Stop</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">goto<wbr>And<wbr>Stop<span class="tsd-signature-symbol">(</span>positionOrLabel<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L753">src/animate/MovieClip.ts:753</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Advances this movie clip to the specified position or label and sets paused to true.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>positionOrLabel: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The animation or frame name to go to.</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="play" class="tsd-anchor"></a>
+					<h3>play</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">play<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L726">src/animate/MovieClip.ts:726</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Sets paused to false.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="playsound" class="tsd-anchor"></a>
+					<h3>play<wbr>Sound</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">play<wbr>Sound<span class="tsd-signature-symbol">(</span>alias<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, loop<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L716">src/animate/MovieClip.ts:716</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Handle sounds.</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>method</dt>
+									<dd><p>PIXI.animate.MovieClip#playSound</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>alias: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The name of the Sound</p>
+									</div>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> loop: <span class="tsd-signature-type">boolean</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="setalpha" class="tsd-anchor"></a>
+					<h3>set<wbr>Alpha</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">set<wbr>Alpha<span class="tsd-signature-symbol">(</span>alpha<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="container.html">Container</a>.<a href="container.html#setalpha">setAlpha</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/Container.ts#L82">src/animate/Container.ts:82</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Chainable setter for alpha</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>alpha: <span class="tsd-signature-type">number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The alpha amount to use, from 0 to 1</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a></h4>
+							<p>Instance for chaining</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="setcolortransform" class="tsd-anchor"></a>
+					<h3>set<wbr>Color<wbr>Transform</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">set<wbr>Color<wbr>Transform<span class="tsd-signature-symbol">(</span>r<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, rA<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, g<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, gA<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, b<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, bA<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="container.html">Container</a>.<a href="container.html#setcolortransform">setColorTransform</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/Container.ts#L131">src/animate/Container.ts:131</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Set additive and multiply color, tinting</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>r: <span class="tsd-signature-type">number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The multiply red value</p>
+									</div>
+								</li>
+								<li>
+									<h5>rA: <span class="tsd-signature-type">number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The additive red value</p>
+									</div>
+								</li>
+								<li>
+									<h5>g: <span class="tsd-signature-type">number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The multiply green value</p>
+									</div>
+								</li>
+								<li>
+									<h5>gA: <span class="tsd-signature-type">number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The additive green value</p>
+									</div>
+								</li>
+								<li>
+									<h5>b: <span class="tsd-signature-type">number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The multiply blue value</p>
+									</div>
+								</li>
+								<li>
+									<h5>bA: <span class="tsd-signature-type">number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The additive blue value</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a></h4>
+							<p>Object for chaining</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="setmask" class="tsd-anchor"></a>
+					<h3>set<wbr>Mask</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">set<wbr>Mask<span class="tsd-signature-symbol">(</span>mask<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Graphics</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Sprite</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="container.html">Container</a>.<a href="container.html#setmask">setMask</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/Container.ts#L51">src/animate/Container.ts:51</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Setter for mask to be able to chain.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>mask: <span class="tsd-signature-type">Graphics</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Sprite</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The mask shape to use</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a></h4>
+							<p>Instance for chaining</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="setrenderable" class="tsd-anchor"></a>
+					<h3>set<wbr>Renderable</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">set<wbr>Renderable<span class="tsd-signature-symbol">(</span>renderable<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="container.html">Container</a>.<a href="container.html#setrenderable">setRenderable</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/Container.ts#L30">src/animate/Container.ts:30</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Function to set if this is renderable or not. Useful for setting masks.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> renderable: <span class="tsd-signature-type">boolean</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Make renderable. Defaults to false.</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a></h4>
+							<p>This instance, for chaining.</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="settint" class="tsd-anchor"></a>
+					<h3>set<wbr>Tint</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">set<wbr>Tint<span class="tsd-signature-symbol">(</span>tint<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="container.html">Container</a>.<a href="container.html#settint">setTint</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/Container.ts#L98">src/animate/Container.ts:98</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Set the tint values by color.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>tint: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The color value to tint</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="movieclip.html" class="tsd-signature-type" data-tsd-kind="Class">MovieClip</a></h4>
+							<p>Object for chaining</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="stop" class="tsd-anchor"></a>
+					<h3>stop</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">stop<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/pixijs/pixi-animate/blob/db5a6ab/src/animate/MovieClip.ts#L734">src/animate/MovieClip.ts:734</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Sets paused to true.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class=" ">
+						<a href="../modules.html">Exports</a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+					<li class=" tsd-kind-class">
+						<a href="animator.html" class="tsd-kind-icon">Animator</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="animatortimeline.html" class="tsd-kind-icon">Animator<wbr>Timeline</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="container.html" class="tsd-kind-icon">Container</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="graphics.html" class="tsd-kind-icon">Graphics</a>
+					</li>
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-class">
+						<a href="movieclip.html" class="tsd-kind-icon">Movie<wbr>Clip</a>
+						<ul>
+							<li class=" tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited">
+								<a href="movieclip.html#constructor" class="tsd-kind-icon">constructor</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="movieclip.html#_actions" class="tsd-kind-icon">_actions</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="movieclip.html#_beforeupdate" class="tsd-kind-icon">_before<wbr>Update</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+								<a href="movieclip.html#_colortransformfilter" class="tsd-kind-icon">_color<wbr>Transform<wbr>Filter</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="movieclip.html#_depthsorted" class="tsd-kind-icon">_depth<wbr>Sorted</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="movieclip.html#_duration" class="tsd-kind-icon">_duration</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="movieclip.html#_framerate" class="tsd-kind-icon">_framerate</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="movieclip.html#_labeldict" class="tsd-kind-icon">_label<wbr>Dict</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="movieclip.html#_labels" class="tsd-kind-icon">_labels</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="movieclip.html#_prevpos" class="tsd-kind-icon">_prev<wbr>Pos</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="movieclip.html#_synchoffset" class="tsd-kind-icon">_synch<wbr>Offset</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="movieclip.html#_t" class="tsd-kind-icon">_t</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="movieclip.html#_timedchildtimelines" class="tsd-kind-icon">_timed<wbr>Child<wbr>Timelines</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="movieclip.html#_timelines" class="tsd-kind-icon">_timelines</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="movieclip.html#_totalframes" class="tsd-kind-icon">_total<wbr>Frames</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+								<a href="movieclip.html#a" class="tsd-kind-icon">a</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="movieclip.html#aa" class="tsd-kind-icon">aa</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+								<a href="movieclip.html#ac" class="tsd-kind-icon">ac</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="movieclip.html#actionsenabled" class="tsd-kind-icon">actions<wbr>Enabled</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="movieclip.html#am" class="tsd-kind-icon">am</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="movieclip.html#at" class="tsd-kind-icon">at</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="movieclip.html#autoreset" class="tsd-kind-icon">auto<wbr>Reset</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+								<a href="movieclip.html#c" class="tsd-kind-icon">c</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="movieclip.html#currentframe" class="tsd-kind-icon">current<wbr>Frame</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+								<a href="movieclip.html#i" class="tsd-kind-icon">i</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="movieclip.html#loop" class="tsd-kind-icon">loop</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+								<a href="movieclip.html#ma" class="tsd-kind-icon">ma</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="movieclip.html#mode" class="tsd-kind-icon">mode</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="movieclip.html#parentstartposition" class="tsd-kind-icon">parent<wbr>Start<wbr>Position</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="movieclip.html#paused" class="tsd-kind-icon">paused</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="movieclip.html#ps" class="tsd-kind-icon">ps</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+								<a href="movieclip.html#re" class="tsd-kind-icon">re</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="movieclip.html#selfadvance" class="tsd-kind-icon">self<wbr>Advance</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="movieclip.html#startposition" class="tsd-kind-icon">start<wbr>Position</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+								<a href="movieclip.html#t" class="tsd-kind-icon">t</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="movieclip.html#tw" class="tsd-kind-icon">tw</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-static">
+								<a href="movieclip.html#default_framerate" class="tsd-kind-icon">DEFAULT_<wbr>FRAMERATE</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-static">
+								<a href="movieclip.html#independent" class="tsd-kind-icon">INDEPENDENT</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-static">
+								<a href="movieclip.html#single_frame" class="tsd-kind-icon">SINGLE_<wbr>FRAME</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-static">
+								<a href="movieclip.html#synched" class="tsd-kind-icon">SYNCHED</a>
+							</li>
+							<li class=" tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited">
+								<a href="movieclip.html#colortransformfilter" class="tsd-kind-icon">color<wbr>Transform<wbr>Filter</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class">
+								<a href="movieclip.html#currentlabel" class="tsd-kind-icon">current<wbr>Label</a>
+							</li>
+							<li class=" tsd-kind-accessor tsd-parent-kind-class">
+								<a href="movieclip.html#elapsedtime" class="tsd-kind-icon">elapsed<wbr>Time</a>
+							</li>
+							<li class=" tsd-kind-accessor tsd-parent-kind-class">
+								<a href="movieclip.html#framerate" class="tsd-kind-icon">framerate</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class">
+								<a href="movieclip.html#labels" class="tsd-kind-icon">labels</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class">
+								<a href="movieclip.html#labelsmap" class="tsd-kind-icon">labels<wbr>Map</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class">
+								<a href="movieclip.html#parentframerate" class="tsd-kind-icon">parent<wbr>Framerate</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class">
+								<a href="movieclip.html#totalframes" class="tsd-kind-icon">total<wbr>Frames</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="movieclip.html#_autoextend" class="tsd-kind-icon">_auto<wbr>Extend</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="movieclip.html#_getchildtimeline" class="tsd-kind-icon">_get<wbr>Child<wbr>Timeline</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="movieclip.html#_goto" class="tsd-kind-icon">_goto</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="movieclip.html#_onadded" class="tsd-kind-icon">_on<wbr>Added</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="movieclip.html#_onremoved" class="tsd-kind-icon">_on<wbr>Removed</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="movieclip.html#_parseproperties" class="tsd-kind-icon">_parse<wbr>Properties</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="movieclip.html#_reset" class="tsd-kind-icon">_reset</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="movieclip.html#_settimelineposition" class="tsd-kind-icon">_set<wbr>Timeline<wbr>Position</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="movieclip.html#_ticklistener" class="tsd-kind-icon">_tick<wbr>Listener</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="movieclip.html#_updatetimeline" class="tsd-kind-icon">_update<wbr>Timeline</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="movieclip.html#addaction" class="tsd-kind-icon">add<wbr>Action</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="movieclip.html#addkeyframe" class="tsd-kind-icon">add<wbr>Keyframe</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="movieclip.html#addtimedchild" class="tsd-kind-icon">add<wbr>Timed<wbr>Child</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="movieclip.html#addtimedmask" class="tsd-kind-icon">add<wbr>Timed<wbr>Mask</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="movieclip.html#addtween" class="tsd-kind-icon">add<wbr>Tween</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="movieclip.html#advance" class="tsd-kind-icon">advance</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="movieclip.html#destroy" class="tsd-kind-icon">destroy</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="movieclip.html#gotoandplay" class="tsd-kind-icon">goto<wbr>And<wbr>Play</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="movieclip.html#gotoandstop" class="tsd-kind-icon">goto<wbr>And<wbr>Stop</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="movieclip.html#play" class="tsd-kind-icon">play</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="movieclip.html#playsound" class="tsd-kind-icon">play<wbr>Sound</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="movieclip.html#setalpha" class="tsd-kind-icon">set<wbr>Alpha</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="movieclip.html#setcolortransform" class="tsd-kind-icon">set<wbr>Color<wbr>Transform</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="movieclip.html#setmask" class="tsd-kind-icon">set<wbr>Mask</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="movieclip.html#setrenderable" class="tsd-kind-icon">set<wbr>Renderable</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="movieclip.html#settint" class="tsd-kind-icon">set<wbr>Tint</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="movieclip.html#stop" class="tsd-kind-icon">stop</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="after-current">
+					<li class=" tsd-kind-class">
+						<a href="scene.html" class="tsd-kind-icon">Scene</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="sprite.html" class="tsd-kind-icon">Sprite</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="text.html" class="tsd-kind-icon">Text</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="timeline.html" class="tsd-kind-icon">Timeline</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="tween.html" class="tsd-kind-icon">Tween</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="../interfaces/animateasset.html" class="tsd-kind-icon">Animate<wbr>Asset</a>
+					</li>
+					<li class=" tsd-kind-type-alias">
+						<a href="../modules.html#displayobject" class="tsd-kind-icon">Display<wbr>Object</a>
+					</li>
+					<li class=" tsd-kind-type-alias">
+						<a href="../modules.html#drawcommands" class="tsd-kind-icon">Draw<wbr>Commands</a>
+					</li>
+					<li class=" tsd-kind-variable">
+						<a href="../modules.html#version" class="tsd-kind-icon">VERSION</a>
+					</li>
+					<li class=" tsd-kind-variable">
+						<a href="../modules.html#sound" class="tsd-kind-icon">sound</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="../modules.html#load" class="tsd-kind-icon">load</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer class="with-border-bottom">
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class"><span class="tsd-kind-icon">Accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="container tsd-generator">
+	<p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p>
+</div>
+<div class="overlay"></div>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>
